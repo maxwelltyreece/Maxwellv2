@@ -5,6 +5,7 @@ import About from "./components/About";
 import Home from "./components/Home";
 import Experience from "./components/Experience";
 import Layout from "./components/Layout";
+import Projects from "./components/Projects"
 
 
 
@@ -16,6 +17,7 @@ function App() {
         <Route index element={<Home />} />
         <Route path="about" element={<About />} />
         <Route path="experience" element={< Experience/>} />
+        <Route path="projects" element={< Projects/>} />
         </Route>
       </Routes>
     </BrowserRouter>

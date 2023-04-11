@@ -4,7 +4,7 @@ export default function Home() {
   return (
       <section id="home">
         <div>
-          <p>Homepage</p>
+          <p>Experiences</p>
         </div>
       </section>
     );
