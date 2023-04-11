@@ -41,15 +41,17 @@ const Navbar = () => {
           <li>
             <a
               href="https://www.linkedin.com/in/maxwell-martin-188195206/"
+              rel="noopener noreferrer"
               target="_blank"
               
             >
-              <FontAwesomeIcon icon={faLinkedin} size="2x"/>
+              <FontAwesomeIcon icon={faLinkedin} size="2x" />
             </a>
           </li>
           <li>
             <a
               href="https://github.com/maxwelltyreece"
+              rel="noopener noreferrer"
               target="_blank"
               
             >
