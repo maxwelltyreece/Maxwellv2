@@ -15,9 +15,6 @@ const Navbar = () => {
           logo
         </NavLink>
 
-        
-        
-
         <div class="w-full md:block md:w-auto" id="navbar-default">
           <ul class=" flex flex-col md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0 ">
             <li>
@@ -55,7 +52,7 @@ const Navbar = () => {
               <FontAwesomeIcon icon={faLinkedin} size="2x" />
             </a>
           </li>
-          
+
           <li>
             <a
               href="https://github.com/maxwelltyreece"

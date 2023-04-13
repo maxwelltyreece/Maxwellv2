@@ -32,7 +32,8 @@ const skills = [
   "JavaScript",
   "Dart",
   "Git",
-  "HTML/CSS",
+  "HTML",
+  "CSS",
   "Python",
   "Flutter",
   "React",
@@ -40,6 +41,10 @@ const skills = [
   "Netifly",
   "React-Native",
   "Material UI",
+  "SQL",
+  "MS Office",
+  "Adobe Suite",
+  
 ];
 
 export {experienceItems, skills};

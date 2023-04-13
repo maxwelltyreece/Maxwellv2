@@ -38,7 +38,7 @@ function JobPannel() {
         {Object.keys(experienceItems).map((key) => (
           <Tab label={experienceItems[key]["name"]} />))}
       </Tabs>
-      {/* could this be better? Do we need i everywhere */}
+
       {Object.keys(experienceItems).map((key, i) => (
         <TabPanel value={tabIndex} index={i}>
           <span>
