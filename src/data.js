@@ -1,44 +1,47 @@
-export const projects = [
-  {
-    title: "React Reserve",
-    subtitle: "MERN Stack",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-1.gif",
-    link: "https://reactbootcamp.com",
+const experienceItems = {
+  KCL: {
+    id: 1,  
+    name: "Global Purpose Enterprise",
+    jobTitle: "Junior Software Developer",
+    duration: "Dec 2022 - PRESENT",
+    desc: [
+      "Part of a development team that designed an app for underrepresented youg people to connect with mentors in their desired field",
+      "I learnt many new technologies and focused my efforts primarly on front-end work",
+      "Contributed to a user-friendly and reliable platform that woudl provide valuable guidance"
+    ],
+    skills: ["JavaScript","React-Native","GitHub","Figma", "HTML","CSS"]
   },
-  {
-    title: "React Tracks",
-    subtitle: "React and Python",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-2.gif",
-    link: "https://reactbootcamp.com",
-  },
-  {
-    title: "DevChat",
-    subtitle: "React and Firebase",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-3.gif",
-    link: "https://reactbootcamp.com",
-  },
-  {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-4.gif",
-    link: "https://reactbootcamp.com",
-  },
-];
 
+  GPE: {
+    id: 2,
+    name: "King's College London",
+    jobTitle: "Software Developer",
+    duration: "Sept 2022 - PRESENT",
+    desc: [
+      "Worked on multiple programming assignments of complexity, ranging from text based games to covid data analysers",
+      "Projects are primarily built in Java",
+    ],
+    skills: ["Java","GitHub"]
 
-export const skills = [
+  },
+}
+
+const skills = [
+  "Java",
+  "C#",
   "JavaScript",
+  "Dart",
+  "Git",
+  "HTML/CSS",
+  "Python",
+  "Flutter",
   "React",
-  "Next.js",
-  "Node",
-  "GraphQL",
+  "NodeJS",
+  "Netifly",
+  "React-Native",
   "Material UI",
 ];
+
+export {experienceItems, skills};
+
+

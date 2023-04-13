@@ -1,9 +1,10 @@
 import React from "react";
 import {NavLink} from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faLinkedin, faGithub} from '@fortawesome/free-brands-svg-icons'
+import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 
-
+//use app bar
 
 const Navbar = () => {
   return (
@@ -39,6 +40,12 @@ const Navbar = () => {
         
         <ul class="flex space-x-5 ">
           <li>
+            <a href="mailto:maxwelltymartin@gmail.com" >
+              <FontAwesomeIcon icon={faEnvelope} size="2x"/>
+            </a>
+          </li>
+
+          <li>
             <a
               href="https://www.linkedin.com/in/maxwell-martin-188195206/"
               rel="noopener noreferrer"
@@ -48,6 +55,7 @@ const Navbar = () => {
               <FontAwesomeIcon icon={faLinkedin} size="2x" />
             </a>
           </li>
+          
           <li>
             <a
               href="https://github.com/maxwelltyreece"
