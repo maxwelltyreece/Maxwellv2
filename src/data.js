@@ -1,9 +1,9 @@
 const experienceItems = {
-  KCL: {
+  GPE: {
     id: 1,  
     name: "Global Purpose Enterprise",
     jobTitle: "Junior Software Developer",
-    duration: "Dec 2022 - PRESENT",
+    duration: "Dec 2022 - May 2023",
     desc: [
       "Part of a development team that designed an app for underrepresented youg people to connect with mentors in their desired field",
       "I learnt many new technologies and focused my efforts primarly on front-end work",
@@ -12,7 +12,7 @@ const experienceItems = {
     skills: ["JavaScript","React-Native","GitHub","Figma", "HTML","CSS"]
   },
 
-  GPE: {
+  KCL: {
     id: 2,
     name: "King's College London",
     jobTitle: "Software Developer",
@@ -22,6 +22,18 @@ const experienceItems = {
       "Projects are primarily built in Java",
     ],
     skills: ["Java","GitHub"]
+
+  },
+
+  FUN: {
+    id: 3,
+    name: "FunTech",
+    jobTitle: "Tech Tutor",
+    duration: "July 2023 - August 2023",
+    desc: [
+      "FILL IN",
+    ],
+    skills: ["FILL IN"]
 
   },
 }

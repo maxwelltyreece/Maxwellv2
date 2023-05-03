@@ -9,6 +9,13 @@ module.exports = {
         'Celadon': '#B6F9C9',
         'Viridian': '#478978',
         'RichBlack': '#001011',
+        'Space': '#444545',
+        'Khaki': '#A0947B',
+        'Peach': '#FBE3B1',
+        'Wheat': 'F8DEB6',
+      },
+      fontFamily: {
+        comfortaa: ["Comfortaa"],
       },
     },
     
