@@ -5,14 +5,11 @@ module.exports = {
     extend: {
       colors: {
         transparent: 'transparent',
-        'Nyanza': '#C9FFE2',
-        'Celadon': '#B6F9C9',
-        'Viridian': '#478978',
-        'RichBlack': '#001011',
         'Space': '#444545',
         'Khaki': '#A0947B',
         'Peach': '#FBE3B1',
-        'Wheat': 'F8DEB6',
+        'Wheat': '#F8DEB6',
+        'Jasmine' : '#F8CF77',
       },
       fontFamily: {
         comfortaa: ["Comfortaa"],

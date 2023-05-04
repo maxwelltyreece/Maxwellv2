@@ -4,11 +4,11 @@ import Navbar from './Navbar'
 
 const Layout = () => {
   return (
-    <div>
+    <div className='bg-Space font-comfortaa h-screen'>
         <div>
             <Navbar/>
         </div>
-        <div>
+        <div className="font-comfortaa text-Khaki">
             <Outlet/>
         </div>
     </div>

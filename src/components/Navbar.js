@@ -8,28 +8,28 @@ import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 
 const Navbar = () => {
   return (
-    <nav class="bg-Space font-comfortaa text-Khaki">
+    <nav class="text-Peach">
       <div class="max-w-screen-xl flex flex-wrap justify-between content-center mx-auto py-4">
         
         <NavLink to="/" >
           logo
         </NavLink>
 
-        <div class="w-full md:block md:w-auto" id="navbar-default">
-          <ul class=" flex flex-col md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0 ">
-            <li>
+        <div class="w-full md:block md:w-auto" >
+          <ul class=" flex flex-row space-x-8 ">
+            <li className="hover:text-Jasmine delay-100">
               <NavLink exact="true" activeclassname="active" to="/">home</NavLink>
             </li>
 
-            <li>
+            <li className="hover:text-Jasmine delay-100">
               <NavLink activeclassname="active" className="about-link" to="/About">about</NavLink>
             </li>
 
-            <li>
+            <li className="hover:text-Jasmine delay-100">
               <NavLink activeclassname="active" className="experience-link" to="/Experience">experience</NavLink>
             </li>
 
-            <li>
+            <li className="hover:text-Jasmine delay-100"> 
               <NavLink activeclassname="active" className="project-link" to="/Projects">projects</NavLink>    
             </li>
           </ul>                

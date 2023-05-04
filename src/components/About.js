@@ -2,7 +2,7 @@ import React from "react";
 
 export default function About() {
   return (
-    <section className="font-comfortaa">
+    <section >
       <div >
         <p>I am currently studying Computer Science at King's College London, and I am looking for a placement year internship opportunity. I have experience in lots of coding languages and platforms, and I can pick up new skills fast</p>
       
