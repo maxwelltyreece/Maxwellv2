@@ -18,12 +18,11 @@
     "postcss": "^8.4.21",
     "postcss-flexbugs-fixes": "^5.0.2",
     "postcss-preset-env": "^8.3.1",
-    "react": "^16.14.0",
+    "react": "^17.0.0",
     "react-dom": "^17.0.2",
     "react-loaders": "^3.0.1",
     "react-router-dom": "^6.10.0",
     "react-scripts": "^5.0.1",
-    "react-typist": "^2.0.5",
     "TagCloud": "^2.3.2"
   },
   "scripts": {
