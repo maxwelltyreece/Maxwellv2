@@ -24,12 +24,6 @@ export default function Home() {
                   2000,
                   'AI',
                   2000,
-                  'Comics',
-                  750,
-                  'Anime',
-                  750,
-                  'Basketball',
-                  750,
                   'pretty much everything.',
                   1000,
                 ]}/>
