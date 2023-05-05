@@ -16,7 +16,7 @@ const Navbar = () => {
         </NavLink>
 
         <div class="w-full md:block md:w-auto" >
-          <ul class=" flex flex-row space-x-8 ">
+          <ul class=" flex flex-row space-x-10 ">
             <li className="hover:text-Jasmine delay-100">
               <NavLink exact="true" activeclassname="active" to="/">home</NavLink>
             </li>
