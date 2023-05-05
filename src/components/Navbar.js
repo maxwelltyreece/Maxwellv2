@@ -1,7 +1,7 @@
 import React from "react";
 import {NavLink} from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedin, faGithub} from '@fortawesome/free-brands-svg-icons'
+import { faLinkedin, faGithub,faMaxcdn} from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 
 //use app bar
@@ -12,7 +12,7 @@ const Navbar = () => {
       <div class="max-w-screen-xl flex flex-wrap justify-between content-center mx-auto py-4">
         
         <NavLink to="/" >
-          logo
+          <FontAwesomeIcon icon={faMaxcdn} size="2x"/>
         </NavLink>
 
         <div class="w-full md:block md:w-auto" >
