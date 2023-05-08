@@ -14,7 +14,7 @@ const WordCloud = () => {
     direction: 135,
     keep: true,
   }
-
+ // eslint-disable-next-line
   useEffect(() => {
     if (isLoading) {
       TagCloud(container, skills, options)
