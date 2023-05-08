@@ -1,20 +1,29 @@
-import React from 'react'
-import { Outlet } from 'react-router-dom'
-import Navbar from './Navbar'
+import React from 'react';
+import { Routes, Route, useLocation} from "react-router-dom";
+import About from './About';
+import Home from "./Home";
+import Experience from "./Experience";
+import Projects from "./Projects";
+import { AnimatePresence } from "framer-motion";
 
-const Layout = () => {
+function Layout () {
+  const location = useLocation();
+
   return (
-    <div className='bg-Space font-comfortaa h-screen'>
-        <div>
-            <Navbar/>
-        </div>
-        <div className="font-comfortaa text-Khaki">
-            <Outlet/>
-        </div>
-    </div>
-    
+    <AnimatePresence exitBeforeEnter
+    className='bg-Space font-comfortaa h-screen'>
+      <Routes location={location} key={location.pathname}>
+        <Route path="/" element={<Layout />}>
+        <Route index element={<Home />} />
+        <Route path="about" element={<About />} />
+        <Route path="experience" element={< Experience/>} />
+        <Route path="projects" element={< Projects/>} />
+        </Route>
+      </Routes>
+    </AnimatePresence>
+        
 
   )
 }
 
-export default Layout
+export default Layout;

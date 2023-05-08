@@ -1,13 +1,22 @@
 import React from "react";
 import WordCloud from "./WordCloud";
 import { TypeAnimation } from "react-type-animation";
+import { motion } from "framer-motion";
+
+
 
 export default function Home() {
 
 
     return (
     <>
-      <section className="flex justify-between">
+      <motion.section 
+        className="flex justify-between"
+        initial={{ opacity: 1 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 1 }}
+        transition={{ duration: 3 }}
+      >
           <div className="grid content-center gap-y-2">
             <h1 className="font-extrabold text-7xl">Hi, I'm <span className="text-Peach">Maxwell</span></h1>
 
@@ -44,7 +53,7 @@ export default function Home() {
           <WordCloud></WordCloud>
           </div>
           
-      </section>
+      </motion.section>
       
     </>
         

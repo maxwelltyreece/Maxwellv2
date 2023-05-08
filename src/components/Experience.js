@@ -3,7 +3,7 @@ import JobPannel from "./JobPannel";
 
 export default function Home() {
   return (
-      <section id="home">
+      <section>
         <div>
           <p>Experiences</p>
           <JobPannel/>
