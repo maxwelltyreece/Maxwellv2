@@ -1,6 +1,7 @@
 <h1 align="center">
-  gazijarin.com - v1
+  My portfolio site - v2
 </h1>
 <p align="center">
-  The first iteration of <a href="https://gazijarin.com" target="_blank">gazijarin.com</a> built with React.js leveraging Material UI.
+  The second iteration of my portfolio built with React.js leveraging Material UI and bootstrap.
+  Current <a href="https://illustrious-pegasus-16f405.netlify.app/" target="_blank"> URL </a>
 </p>
