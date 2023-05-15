@@ -59,6 +59,28 @@ const skills = [
   
 ];
 
-export {experienceItems, skills};
+const spotlightProjects = {
+  Maxwell: {
+    title: "Maxwell 2.0",
+    desc:
+      "The second iteration of my portfolio website. You're currently browsing it.",
+    techStack: "JAVASCRIPT (REACT)",
+    link: "https://github.com/maxwelltyreece/Maxwellv2",
+    open: "",
+    image: "/public/assets/PortfolioSite.png"
+  },
+  SchoolSimulator: {
+    title: "School Simulator",
+    desc:
+      "A retro game inspired by the like of Pokémon and The Legend of Zelda.",
+    techStack: "C# (UNITY)",
+    link: "https://github.com/maxwelltyreece/School-Simulator",
+    open: "",
+    image: "/public/assets/SchoolSimulator.png"
+  },
+};
+
+
+export {experienceItems, skills, spotlightProjects};
 
 
