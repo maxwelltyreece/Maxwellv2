@@ -8,15 +8,16 @@ import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 
 const Navbar = () => {
   return (
-    <nav class="text-Peach">
+    <nav class="text-Peach text-xs sm:text-lg">
       <div class="max-w-screen-xl flex flex-wrap justify-between content-center mx-auto py-4">
         
         <NavLink to="/" >
-          <FontAwesomeIcon icon={faMaxcdn} size="2x"/>
+          <FontAwesomeIcon icon={faMaxcdn} size="lg"/>
         </NavLink>
 
-        <div class="w-full md:block md:w-auto" >
-          <ul class=" flex flex-row space-x-10 ">
+
+        <div class="w-auto" >
+          <ul class=" flex flex-row space-x-5 sm:space-x-10 ">
             <li className="hover:text-Jasmine delay-100">
               <NavLink exact="true" activeclassname="active" to="/">home</NavLink>
             </li>
@@ -38,7 +39,7 @@ const Navbar = () => {
         <ul class="flex space-x-5 ">
           <li>
             <a href="mailto:maxwelltymartin@gmail.com" >
-              <FontAwesomeIcon icon={faEnvelope} size="2x"/>
+              <FontAwesomeIcon icon={faEnvelope} size="lg"/>
             </a>
           </li>
 
@@ -49,7 +50,7 @@ const Navbar = () => {
               target="_blank"
               
             >
-              <FontAwesomeIcon icon={faLinkedin} size="2x" />
+              <FontAwesomeIcon icon={faLinkedin} size="lg" />
             </a>
           </li>
 
@@ -60,7 +61,7 @@ const Navbar = () => {
               target="_blank"
               
             >
-              <FontAwesomeIcon icon={faGithub} size="2x"/>
+              <FontAwesomeIcon icon={faGithub} size="lg"/>
             </a>
           </li>
         </ul>

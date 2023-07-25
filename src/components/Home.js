@@ -16,10 +16,10 @@ export default function Home() {
         transition = {{duration: 1}}
         >
           <div className="grid content-center gap-y-2">
-            <h1 className="font-extrabold text-7xl">Hi, I'm <span className="text-Peach">Maxwell</span></h1>
+            <h1 className="font-extrabold text-3xl sm:text-7xl">Hi, I'm <span className="text-Peach">Maxwell</span></h1>
 
 
-            <span className="text-4xl">
+            <span className="text-md sm:text-4xl">
               I'm interested in {' '}
               <TypeAnimation className="text-Peach"
                 sequence={[
