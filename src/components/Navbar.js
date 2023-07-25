@@ -23,10 +23,6 @@ const Navbar = () => {
             </li>
 
             <li className="hover:text-Jasmine delay-100">
-              <NavLink activeclassname="active" className="about-link" to="/About">about</NavLink>
-            </li>
-
-            <li className="hover:text-Jasmine delay-100">
               <NavLink activeclassname="active" className="experience-link" to="/Experience">experience</NavLink>
             </li>
 

@@ -8,7 +8,7 @@ const WordCloud = () => {
   const container = '.content'
   
   var options = {
-    radius: 150,
+    radius: 300,
     maxSpeed: 'fast',
     initSpeed: 'fast',
     direction: 135,
