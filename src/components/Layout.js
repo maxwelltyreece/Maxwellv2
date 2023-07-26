@@ -5,8 +5,8 @@ import { AnimatePresence } from 'framer-motion'
 
 const Layout = () => {
   return (
-    <div className='bg-Space font-comfortaa h-screen'>
-        <div>
+    <div className='bg-Eerie font-comfortaa h-screen'>
+        <div className='bg-Space'>
             <Navbar/>
         </div>
         <div className="font-comfortaa text-Khaki">

@@ -8,7 +8,7 @@ import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 
 const Navbar = () => {
   return (
-    <nav class="text-Peach text-xs sm:text-lg">
+    <nav class="text-Peach text-lg">
       <div class="max-w-screen-xl flex flex-wrap justify-between content-center mx-auto py-4">
         
         <NavLink to="/" >
