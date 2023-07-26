@@ -12,7 +12,7 @@ const Navbar = () => {
       <div class="max-w-screen-xl flex flex-wrap justify-between content-center mx-auto py-4">
         
         <NavLink to="/" >
-          <FontAwesomeIcon icon={faMaxcdn} size="lg"/>
+          <FontAwesomeIcon icon={faMaxcdn} size="xl"/>
         </NavLink>
 
 
@@ -35,7 +35,7 @@ const Navbar = () => {
         <ul class="flex space-x-5 ">
           <li>
             <a href="mailto:maxwelltymartin@gmail.com" >
-              <FontAwesomeIcon icon={faEnvelope} size="lg"/>
+              <FontAwesomeIcon icon={faEnvelope} size="xl"/>
             </a>
           </li>
 
@@ -46,7 +46,7 @@ const Navbar = () => {
               target="_blank"
               
             >
-              <FontAwesomeIcon icon={faLinkedin} size="lg" />
+              <FontAwesomeIcon icon={faLinkedin} size="xl" />
             </a>
           </li>
 
@@ -57,7 +57,7 @@ const Navbar = () => {
               target="_blank"
               
             >
-              <FontAwesomeIcon icon={faGithub} size="lg"/>
+              <FontAwesomeIcon icon={faGithub} size="xl"/>
             </a>
           </li>
         </ul>
