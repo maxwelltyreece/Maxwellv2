@@ -1,7 +1,7 @@
 import React from "react";
 import {NavLink} from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedin, faGithub,faMaxcdn} from '@fortawesome/free-brands-svg-icons'
+import { faLinkedin, faGithub,faMaxcdn,faInstagram} from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 
 //use app bar
@@ -58,6 +58,17 @@ const Navbar = () => {
               
             >
               <FontAwesomeIcon icon={faGithub} size="xl"/>
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="https://www.instagram.com/maxwelltyreece/"
+              rel="noopener noreferrer"
+              target="_blank"
+              
+            >
+              <FontAwesomeIcon icon={faInstagram} size="xl"/>
             </a>
           </li>
         </ul>
