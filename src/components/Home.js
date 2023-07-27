@@ -1,7 +1,6 @@
 import React from "react";
 import WordCloud from "./WordCloud";
 import { TypeAnimation } from "react-type-animation";
-import { motion } from "framer-motion";
 
 export default function Home() {
 

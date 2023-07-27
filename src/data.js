@@ -78,6 +78,33 @@ const spotlightProjects = {
     open: "",
     image: "/public/assets/SchoolSimulator.png"
   },
+  TestProject1: {
+    title: "Test Title",
+    desc:
+      "A sample sentence to fill space",
+    techStack: ["EXAMPLE", "EXAMPLE 2"],
+    link: "",
+    open: "",
+    image: ""
+  },
+  TestProject2: {
+    title: "Test Title",
+    desc:
+      "A sample sentence to fill space",
+    techStack: ["EXAMPLE", "EXAMPLE 2"],
+    link: "",
+    open: "",
+    image: ""
+  },
+  TestProject3: {
+    title: "Test Title",
+    desc:
+      "A sample sentence to fill space",
+    techStack: ["EXAMPLE", "EXAMPLE 2"],
+    link: "",
+    open: "",
+    image: ""
+  },
 };
 
 
