@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import { Typography, Box, Tab, Tabs } from "@mui/material";
+import { Typography, Box, Tab, Tabs,Stack } from "@mui/material";
 import {experienceItems} from "../data"
 
 
@@ -33,8 +33,8 @@ function JobPannel() {
     };
   
     return (
-      <Box sx={{ flexGrow: 9, display: 'flex'}}>
-      <Tabs orientation={"vertical"} value={tabIndex} onChange={handleChange}>
+      <Stack >
+      <Tabs className="text-Peach" value={tabIndex} onChange={handleChange} textColor="Peach" indicatorColor="secondary" centered>
         {Object.keys(experienceItems).map((key) => (
           <Tab label={experienceItems[key]["name"]} />))}
       </Tabs>
@@ -59,7 +59,7 @@ function JobPannel() {
           </ul>
         </TabPanel>
       ))}
-    </Box>
+    </Stack>
     );
   }
   

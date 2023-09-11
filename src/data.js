@@ -31,9 +31,11 @@ const experienceItems = {
     jobTitle: "Tech Tutor",
     duration: "July 2023 - August 2023",
     desc: [
-      "FILL IN",
+      "Successfully spearheaded an interactive camp focused on fostering coding skills and digital literacy whilst inspiring young individuals.",
+      "Primarily managed daily camp logistics and safeguarding, alongside supervising, and providing specialised teaching aid",
+      "Taught python and cyber security amongst other courses, adapting my teaching styles to accommodate a range of age groups, including children with learning disabilities.",
     ],
-    skills: ["FILL IN"]
+    skills: ["Leadership","Management & Operation","Python","Cyber Security","Unreal Engine"]
 
   },
 }
@@ -79,24 +81,6 @@ const spotlightProjects = {
     image: "/public/assets/SchoolSimulator.png"
   },
   TestProject1: {
-    title: "Test Title",
-    desc:
-      "A sample sentence to fill space",
-    techStack: ["EXAMPLE", "EXAMPLE 2"],
-    link: "",
-    open: "",
-    image: ""
-  },
-  TestProject2: {
-    title: "Test Title",
-    desc:
-      "A sample sentence to fill space",
-    techStack: ["EXAMPLE", "EXAMPLE 2"],
-    link: "",
-    open: "",
-    image: ""
-  },
-  TestProject3: {
     title: "Test Title",
     desc:
       "A sample sentence to fill space",

@@ -9,7 +9,7 @@ import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 const Navbar = () => {
   return (
     <nav class="text-Peach text-lg">
-      <div class="max-w-screen-xl flex flex-wrap justify-between content-center mx-auto py-4">
+      <div class="flex flex-row justify-between py-4 px-10">
         
         <NavLink to="/" >
           <FontAwesomeIcon icon={faMaxcdn} size="xl"/>
@@ -23,7 +23,7 @@ const Navbar = () => {
             </li>
 
             <li className="hover:text-Jasmine delay-100">
-              <NavLink activeclassname="active" className="experience-link" to="/Experience">experience</NavLink>
+              <NavLink activeclassname="active" className="experience-link" to="/Experience">experiences</NavLink>
             </li>
 
             <li className="hover:text-Jasmine delay-100"> 

@@ -1,28 +1,25 @@
 import React from "react";
-import { spotlightProjects } from "../data";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFolderOpen } from "@fortawesome/free-regular-svg-icons";
-import { Grid } from "@mui/material";
+import PortfolioSite from "./projects/PortfolioSite";
+import SchoolSimulator from "./projects/SchoolSimulator";
+import SpotifyCalculator from "./projects/SpotifyCalculator";
+import { Stack } from "@mui/material";
+
 
 export default function Projects() {
   return (
-    <div>
-      <div className="grid grid-cols-4 space-x-4 justify-items-stretch">
-          {Object.keys(spotlightProjects).map((key, i) => (
-            <div className="bg-Space">
-              <div className="">
-                <div className="folder-icon">
-                  <FontAwesomeIcon icon={faFolderOpen} size="xl"/>
-                </div>
-              </div>
+      <section className="flex justify-center">
+        <div className="grid justify-items-center p-16">
+          <p  className="text-Peach text-4xl pb-8">Projects</p>
+          <Stack direction="row" spacing={5}>
+            <PortfolioSite/>
+            <SchoolSimulator/>
+            <SpotifyCalculator/>
 
-              <div className="card-title">{key}</div>
-              <div>{spotlightProjects[key]["desc"]}</div>
-              <div>{spotlightProjects[key]["techStack"]}</div>
-            </div>
-          ))}
-      </div>
-      
-    </div>
-  );
+          </Stack>
+          
+          
+        </div>
+      </section>
+    );
+
 }
