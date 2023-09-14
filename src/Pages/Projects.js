@@ -1,7 +1,7 @@
 import React from "react";
-import PortfolioSite from "./projects/PortfolioSite";
-import SchoolSimulator from "./projects/SchoolSimulator";
-import SpotifyCalculator from "./projects/SpotifyCalculator";
+import PortfolioSite from "../components/projects/PortfolioSite";
+import SchoolSimulator from "../components/projects/SchoolSimulator";
+import SpotifyCalculator from "../components/projects/SpotifyCalculator";
 import { Stack } from "@mui/material";
 
 

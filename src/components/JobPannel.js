@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import { Typography, Box, Tab, Tabs,Stack } from "@mui/material";
+import { Typography, Box, Tab, Tabs,Stack, Divider } from "@mui/material";
 import {experienceItems} from "../data"
 
 
@@ -33,32 +33,33 @@ function JobPannel() {
     };
   
     return (
-      <Stack >
-      <Tabs className="text-Peach" value={tabIndex} onChange={handleChange} textColor="Peach" indicatorColor="secondary" centered>
-        {Object.keys(experienceItems).map((key) => (
-          <Tab label={experienceItems[key]["name"]} />))}
-      </Tabs>
+      <Stack>
+        <Divider className="bg-Khaki "/>
+        <Tabs className="text-Peach pt-8" value={tabIndex} onChange={handleChange} textColor="Peach" indicatorColor="secondary" centered>
+          {Object.keys(experienceItems).map((key) => (
+            <Tab label={experienceItems[key]["name"]} />))}
+        </Tabs>
 
-      {Object.keys(experienceItems).map((key, i) => (
-        <TabPanel value={tabIndex} index={i}>
-          <span>
-            {experienceItems[key]["jobTitle"] + " @ " + experienceItems[key]["name"]} 
-          </span>
-          
-          <div>
-            {experienceItems[key]["duration"]}
-          </div>
-          <ul>
-            {experienceItems[key]["desc"].map(function (descItem) {
-              return (
-                
-                  <li>{descItem}</li>
-                
-              );
-            })}
-          </ul>
-        </TabPanel>
-      ))}
+        {Object.keys(experienceItems).map((key, i) => (
+          <TabPanel value={tabIndex} index={i} >
+            <span className="text-Khaki text-2xl font-comfortaa">
+              <span className="text-Peach">{experienceItems[key]["jobTitle"]}</span> {" @ " + experienceItems[key]["name"]} 
+            </span>
+            
+            <div>
+              {experienceItems[key]["duration"]}
+            </div>
+            <ul>
+              {experienceItems[key]["desc"].map(function (descItem) {
+                return (
+                  
+                    <li>{descItem}</li>
+                  
+                );
+              })}
+            </ul>
+          </TabPanel>
+        ))}
     </Stack>
     );
   }
