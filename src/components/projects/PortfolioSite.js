@@ -42,7 +42,7 @@ export default function PortfolioSite() {
 
                     </CardContent>
                     <CardActions className="bg-Space justify-end">
-                        <a href="https://github.com/maxwelltyreece" rel="noopener noreferrer" target="_blank">
+                        <a href="https://maxwellmartin.co.uk" rel="noopener noreferrer" target="_blank">
                             <FontAwesomeIcon icon={faUpRightFromSquare} size="xl"/>
                         </a>
                         <a
