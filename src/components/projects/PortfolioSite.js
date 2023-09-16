@@ -3,20 +3,20 @@ import { Card, CardActionArea, CardActions, CardContent,CardMedia, Modal } from 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 import PortfolioSite2 from "../../assets/PortfolioSite2.png";
-import { useState } from "react";
+import PortfolioBanner from "../../assets/PortfolioSite Banner.jpg"
 import {faGithub} from '@fortawesome/free-brands-svg-icons'
 
 
 
 export default function PortfolioSite() {
 
-    const[open,setOpen] = useState(false);
+    const[open,setOpen] = React.useState(false);
     const handleOpen = () => setOpen(true);
     const handleClose = () => setOpen(false);
     
     return (
         <div>
-            <Card sx={{ maxWidth: 350}}>
+            <Card sx={{ maxWidth: 300}}>
                 <CardActionArea onClick={handleOpen}>
                     <CardMedia
                     component="img"
@@ -32,7 +32,7 @@ export default function PortfolioSite() {
 
             <Modal open={open} onClose={handleClose} className="grid place-content-center">
                 <Card>
-                    <CardMedia/>
+                    <CardMedia component="img" image={PortfolioBanner} />
                     <CardContent className="">
                         <p>dskfghsdk ksdjhfsd kjshdrf skdjfh</p>
                         <p>dskfghsdk ksdjhfsd kjshdrf skdjfh</p>

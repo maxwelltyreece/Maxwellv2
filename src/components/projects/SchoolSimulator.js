@@ -4,17 +4,16 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 import {faGithub} from '@fortawesome/free-brands-svg-icons'
 import schoolImage from "../../assets/SchoolSimulator.png";
-import { useState } from "react";
 
 
 export default function SchoolSimulator() {
-    const[open,setOpen] = useState(false);
+    const[open,setOpen] = React.useState(false);
     const handleOpen = () => setOpen(true);
     const handleClose = () => setOpen(false);
     
     return (
         <div>
-            <Card sx={{ maxWidth: 350}}>
+            <Card sx={{ maxWidth: 300}}>
                 <CardActionArea onClick={handleOpen}>
                     <CardMedia
                         component="img"
