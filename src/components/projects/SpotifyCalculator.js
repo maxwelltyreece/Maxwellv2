@@ -33,19 +33,13 @@ export default function SpotifyCalculator() {
                 <Card> 
                     <CardMedia component="img" image={SpotifyBanner}/>
                     <CardContent className="">
-                        <p>dskfghsdk ksdjhfsd kjshdrf skdjfh</p>
-                        <p>dskfghsdk ksdjhfsd kjshdrf skdjfh</p>
-                        <p>dskfghsdk ksdjhfsd kjshdrf skdjfh</p>
-                        <p>dskfghsdk ksdjhfsd kjshdrf skdjfh</p>
+                        <p>in development</p>
 
 
                     </CardContent>
-                    <CardActions className="bg-Space justify-end">
-                        <a href="https://maxwellmartin.co.uk" rel="noopener noreferrer" target="_blank">
-                            <FontAwesomeIcon icon={faUpRightFromSquare} size="xl"/>
-                        </a>
+                    <CardActions className="bg-Khaki justify-end">
                         <a
-                            href="https://github.com/maxwelltyreece/Maxwellv2"
+                            href="https://github.com/maxwelltyreece"
                             rel="noopener noreferrer"
                             target="_blank"
                             
