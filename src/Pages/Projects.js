@@ -2,6 +2,7 @@ import React from "react";
 import PortfolioSite from "../components/projects/PortfolioSite";
 import SchoolSimulator from "../components/projects/SchoolSimulator";
 import SpotifyCalculator from "../components/projects/SpotifyCalculator";
+import GSaver from "../components/projects/GSaver";
 import { Stack, Divider } from "@mui/material";
 
 
@@ -14,7 +15,9 @@ export default function Projects() {
             
             <PortfolioSite/>
             <SchoolSimulator/>
+            <GSaver/>
             <SpotifyCalculator/>
+            
 
           </Stack>
           
