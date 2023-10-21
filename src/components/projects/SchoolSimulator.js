@@ -36,7 +36,6 @@ export default function SchoolSimulator() {
                     <Card>
                         <CardMedia component="img" image={schoolBanner}/>
                         <CardContent className="">
-                            <p>This is the second released edition of my software / web development portfolio site. I have built it using React, utlising MaterialUI, and TailwindCSS. I host my website</p>
                             <p>This is 'School Simulator' a game I developed for the Computing Club in my school, primarily built through Unity, using C# scripting.</p>
                             <br/>
                             <p>After playing Undertale and seeing it's art inspiration from older adventure style games, I aimed to make my own rendition for my school computing club, with a familiar </p>

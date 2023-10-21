@@ -35,14 +35,14 @@ export default function PortfolioSite() {
                     <Card>
                         <CardMedia component="img" image={PortfolioBanner} />
                         <CardContent className="">
-                            <p>This is the second released edition of my software / web development portfolio site. I have built it using React, utlising MaterialUI, and TailwindCSS. I host my website</p>
+                            <p>This is the second released edition of my software / web development portfolio site. I have built it using React, utilising MaterialUI, and TailwindCSS. I host my website</p>
                             <p>on Netifly.</p>
                             <br/>
-                            <p>Aside from internship experience, this is my largest full scale React project, nad I have gained a lot of experience building a complete application from the top down,</p>
+                            <p>Aside from internship experience, this is my largest full scale React project, and I have gained a lot of experience building a complete application from the top down,</p>
                             <p>for example Routes and other components in React Router DOM. It also gave me opportunites to experiment with web design without the limitations and restrictions that</p>
                             <p>premade builders implement.</p>
                             <br/>
-                            <p>I am deploying new updates frequently, as there are still multiple areas that require more functionality, howver each deploy gives me more scope for learning qualites</p>
+                            <p>I am deploying new updates frequently, as there are still multiple areas that require more functionality, however each deploy gives me more scope for learning qualites</p>
                             <p>needed in fullstack development.</p>
 
 
